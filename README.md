@@ -87,7 +87,7 @@ You can use the following css classes to style your documentation (suround a blo
  - *warning*: orange box
  - *tip*: green box
 
-Tables will be automatically formatted.
+Tables will be automatically formated.
 
 ## Theming and static pages generation
 
@@ -150,12 +150,3 @@ When multiple manifests are specified, each generated ones will be located in it
 You can also generate the index file on its own using *--index-only*:
 
     bfdocs --index-only /path/to/manifest.json /path/to/manifest.json index.html
-
-
-## Grunt plugin
-
-You can automate the documentation generation using [Grunt][grunt] and the [Beautiful Docs task][task]
-
-
-[grunt]: http://gruntjs.com
-[task]: https://github.com/h2non/grunt-beautiful-docs
